@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.databinding.library.BuildConfig
 import com.jessecorbett.diskord.api.channel.ChannelClient
 import com.jessecorbett.diskord.internal.client.RestClient
 import com.jessecorbett.diskord.util.sendMessage
@@ -33,10 +34,13 @@ class ResultsActivity : AppCompatActivity(), CoroutineScope  {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.results)
         resultstxt = findViewById(R.id.resultstxt)
+        //Note: These codes are placeholders and will not work. A Discord bot has to first be created and then the token has to be used.
         launch {
+            val discordBotToken = "DISCORD_BOT_TOKEN"
             val client =
-                RestClient.default("OTQ5MTMwOTMyNDcwODM3MjQ5.YiF5EA.d95m3JwRo02E2GwJ60sT0QK9qJY")
-            val channel = ChannelClient("950976213814501436", client)
+                RestClient.default(discordBotToken)
+            val channelId = "CHANNELID"
+            val channel = ChannelClient(channelId, client)
             channel.sendMessage("Test Finished")
             var message = ""
             if (testspassed == 3) {
