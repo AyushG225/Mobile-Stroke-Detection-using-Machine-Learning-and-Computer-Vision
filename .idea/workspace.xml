@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a62b7b9d-51bf-484c-85a2-e8e8b3127f98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/GlobalStoreVariables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/GlobalStoreVariables.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ResultsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ResultsActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ScreenAboutArmsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ScreenAboutArmsActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ScreenAboutSmileActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ScreenAboutSmileActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ScreenAboutSoundActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ScreenAboutSoundActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ScreenAfterArmsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ScreenAfterArmsActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ScreenAfterSmileActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ScreenAfterSmileActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ScreenAfterSoundActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ScreenAfterSoundActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/SetContactActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/SetContactActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/SmileDetectionActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/SmileDetectionActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/SoundClassificationActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/SoundClassificationActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ml/MoveNetMultiPose.kt" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/ml/MoveNetMultiPose.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/viewmodel/TestsPassedViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finish/src/main/res/layout/arms_classification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/finish/src/main/res/layout/arms_classification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/java/org/tensorflow/lite/examples/classification/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/java/org/tensorflow/lite/examples/classification/ui/RecognitionAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/java/org/tensorflow/lite/examples/classification/util/YuvToRgbConverter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/java/org/tensorflow/lite/examples/classification/viewmodel/RecognitionViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/ml/FlowerModel.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/drawable-xxhdpi/tfl2_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/layout/recognition_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/src/main/res/values/themes.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/ayushghosh/.android/avd/Pixel_XL_API_Sv2.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TFL Classify" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TFL Classify" type="f1a62948:ProjectNode" />
+                <item name="finish" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TFL Classify" type="f1a62948:ProjectNode" />
+                <item name="finish" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/finish/src/main/java/org/tensorflow/lite/examples/classification/SoundClassificationActivity.kt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+    </hideBySeverity>
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectId" id="254qXDhOD5W4vLnHCd8lNvcthYj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/finish/src/main/ml" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/finish/src/main/ml" />
+      <recent name="$PROJECT_DIR$/finish" />
+      <recent name="$PROJECT_DIR$/finish/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/finish/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/finish/src/main/res/font" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/finish/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/finish/src/main/res/drawable" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="org.tensorflow.lite.examples.classification.util" />
+      <recent name="org.tensorflow.lite.examples.classification.data" />
+      <recent name="org.tensorflow.lite.examples.classification" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.finish">
+    <configuration name="finish" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="TFL_Classify.finish" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrokeDetectorBotKt" type="JetRunConfigurationType" nameIsGenerated="true">
+      <module name="TFL_Classify.finish" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.tensorflow.lite.examples.classification.StrokeDetectorBotKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a62b7b9d-51bf-484c-85a2-e8e8b3127f98" name="Default Changelist" comment="" />
+      <created>1644796743594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644796743594</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

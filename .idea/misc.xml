@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="finish/src/main/res/drawable/ic_launcher_background.xml" value="0.2923076923076923" />
+        <entry key="finish/src/main/res/drawable/oval.xml" value="0.14010416666666667" />
+        <entry key="finish/src/main/res/drawable/rounded_edge.xml" value="0.13229166666666667" />
+        <entry key="finish/src/main/res/layout/arms_classification.xml" value="0.22990654205607478" />
+        <entry key="finish/src/main/res/layout/bottom_sheet_layout.xml" value="0.11141304347826086" />
+        <entry key="finish/src/main/res/layout/home_screen.xml" value="0.25" />
+        <entry key="finish/src/main/res/layout/oval.xml" value="0.17916666666666667" />
+        <entry key="finish/src/main/res/layout/pose_estimation.xml" value="0.12395833333333334" />
+        <entry key="finish/src/main/res/layout/recognition_item.xml" value="2.260093596370059" />
+        <entry key="finish/src/main/res/layout/results.xml" value="0.16875" />
+        <entry key="finish/src/main/res/layout/screen_about_arms.xml" value="0.335" />
+        <entry key="finish/src/main/res/layout/screen_about_smile.xml" value="0.2793427230046948" />
+        <entry key="finish/src/main/res/layout/screen_about_sound.xml" value="0.375" />
+        <entry key="finish/src/main/res/layout/screen_after_arms.xml" value="0.10416666666666667" />
+        <entry key="finish/src/main/res/layout/screen_after_smile.xml" value="0.31925170400971975" />
+        <entry key="finish/src/main/res/layout/screen_after_sound.xml" value="0.33194444444444443" />
+        <entry key="finish/src/main/res/layout/set_contact.xml" value="0.335" />
+        <entry key="finish/src/main/res/layout/smile_detection.xml" value="0.10006665635468075" />
+        <entry key="finish/src/main/res/layout/sound_classification.xml" value="0.375" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#390879"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/finishedsmiledetection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans"
+            android:text="Smile Detection Results"
+            android:textAlignment="center"
+            android:textColor="#b8df10"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/smileresults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans"
+            android:text="Results:"
+            android:textAlignment="center"
+            android:textColor="#b8df10"
+            android:textSize="15sp" />
+        <ImageView
+            android:layout_width="150dp"
+            android:id = "@+id/emojiresults"
+            android:layout_height="150dp"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            />
+        <android.widget.Button
+            android:padding="10dp"
+            android:id="@+id/moreinfo"
+            style="@style/Widget.AppCompat.Button"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#390879"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="@font/opensans"
+            android:layout_gravity="center"
+            android:background="@drawable/oval"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:text="More Info"/>
+        <android.widget.Button
+            android:padding="10dp"
+            android:id="@+id/goback"
+            style="@style/Widget.AppCompat.Button"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#390879"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="@font/opensans"
+            android:layout_gravity="center"
+            android:background="@drawable/oval"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:text="Home"/>
+        <android.widget.Button
+            android:id="@+id/startsoundclassification"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Speech Classification"
+            android:textSize="24dp"
+            android:textColor="#390879"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="@font/opensans"
+            android:layout_gravity="center"
+            android:background="@drawable/oval"
+            android:padding="10dp"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans"
+            android:text="Info:"
+            android:textAlignment="center"
+            android:textColor="#b8df10"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:gravity="center">
+
+
+    </LinearLayout>
+
+</RelativeLayout>

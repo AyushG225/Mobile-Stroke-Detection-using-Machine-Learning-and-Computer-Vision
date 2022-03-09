@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#390879"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/homescreentitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/stroke_detector"
+            android:textAlignment="center"
+            android:textColor="#b8df10"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/sounddescription"
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans"
+            android:text="@string/sound_description"
+            android:textSize="20sp"
+            android:textColor="#b8df10" />
+
+        <android.widget.Button
+            android:id="@+id/startsoundclassification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/homescreentitle"
+            android:backgroundTint="#b8df10"
+            android:onClick="onClick"
+            android:text="Start Speech Classification"
+            android:textSize="20dp"
+            android:textColor="#390879"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="@font/opensans"
+            android:layout_gravity="center"
+            android:background="@drawable/oval"
+            android:padding="10dp">
+
+        </android.widget.Button>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<!--
+  ~ Copyright (C) 2020 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">TFL Classify</string>
+    <string name="permission_deny_text">Required permissions denied. Exiting.</string>
+    <string name="stroke_detection_app">Stroke Detection App</string>
+    <string name="smile">Smile!</string>
+    <string name="start_smile_detection">Start Smile Detection</string>
+    <string name="smile_description">The button \"Start Smile Detection\" will start a camera for a few seconds where the person who may have a stroke will attempt to smile. It will then produce statistics about whether or not that person may have a stroke. Ideally, the person should be in a quiet space and without others in the background. The person\'s face should fill the whole screen as well.</string>
+    <string name="finished_smile_detection">You have finished Smile Detection!</string>
+    <string name="finished_sound_classification">You have finished Sound Classification!</string>
+    <string name="final_score">Final Score:</string>
+    <string name="start_detection">Start Stroke Detection</string>
+    <string name="fast">FAST</string>
+    <string name="start_sound_classification">Start Sound Classification</string>
+    <string name="sound_description">The button \"Start Speech Classification\" will open a page for 15 seconds where the person who may have a stroke will attempt to say words on the screen. It will then produce statistics about whether or not that person may have a stroke. Each word out of 5 words will be shown on the screen for 3 seconds. The person should try to say the words clearly, and afterwards the results will be shown.</string>
+    <string name="stroke_detector">Stroke Detector</string>
+    <string name="saved_number_key" />
+    <string name="saved_number_default_key">911</string>
+    <string name="tfe_pe_app_name">TFL Pose Estimation</string>
+    <string name="tfe_pe_request_permission">This app needs camera permission.</string>
+    <string name="tfe_pe_tv_score">Score: %.2f</string>
+    <string name="tfe_pe_tv_model">Model: </string>
+    <string name="tfe_pe_tv_fps">Fps: %d</string>
+    <string name="tfe_pe_tv_device">Device: </string>
+    <string name="tfe_pe_tv_classification_value">- %s</string>
+    <string name="tfe_pe_tv_pose_classification">Pose Classification</string>
+    <string name="tfe_pe_tv_tracking">Tracker: </string>
+    <string name="tfe_pe_gpu_error">Movenet MultiPose does not support GPU. Fallback to CPU.</string>
+    <string-array name="tfe_pe_models_array">
+        <item>Movenet Lightning</item>
+        <item>Movenet Thunder</item>
+        <item>Movenet MultiPose</item>
+        <item>Posenet</item>
+    </string-array>
+
+    <string-array name="tfe_pe_device_name">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string-array name="tfe_pe_tracker_array">
+        <item>Off</item>
+        <item>BoundingBox</item>
+        <item>Keypoint</item>
+    </string-array>
+    <string name="arms_description">The button \"Start Arms Classification\" will start a camera for about 10 seconds where the person who may have a stroke will attempt to raise their arms from their waist to above their head. Their whole body should be in the frame of view, and their arms should start off next to their waist. Nobody else should be in the background.</string>
+    <string name="tests_passed"/>
+</resources>
