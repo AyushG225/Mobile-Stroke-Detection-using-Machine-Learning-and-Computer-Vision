@@ -12,10 +12,12 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import org.tensorflow.lite.examples.classification.GlobalStoreVariables.Companion.armsscore
+import org.tensorflow.lite.examples.classification.GlobalStoreVariables.Companion.incorrectspeechwords
 import org.tensorflow.lite.examples.classification.GlobalStoreVariables.Companion.passedornot
 import org.tensorflow.lite.examples.classification.GlobalStoreVariables.Companion.smilescore
 import org.tensorflow.lite.examples.classification.GlobalStoreVariables.Companion.speechscore
 import org.tensorflow.lite.examples.classification.GlobalStoreVariables.Companion.testspassed
+import java.util.*
 
 
 @ExperimentalCoroutinesApi
@@ -38,6 +40,7 @@ class ScreenAfterSmileActivity : AppCompatActivity(){
         smilescore = 0.0f
         speechscore = 0
         armsscore = arrayOf(0, 0)
+        incorrectspeechwords = Vector<String>()
         smileresults = findViewById(R.id.smileresults)
         emojiresults = findViewById(R.id.emojiresults)
         moreinfo = findViewById(R.id.moreinfo)

@@ -46,7 +46,7 @@ class ScreenAfterArmsActivity : AppCompatActivity() {
             armsscore[0] = leftcnt
             armsscore[1] = rightcnt
         }
-        info.text = "leftcnt = $leftcnt\nrightcnt = $rightcnt"
+        info.text = "Left arm raised for $leftcnt frames\nRight arm raised for $rightcnt frames"
 
     }
     @SuppressLint("SetTextI18n")

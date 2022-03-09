@@ -12,6 +12,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import org.tensorflow.lite.examples.classification.GlobalStoreVariables.Companion.incorrectspeechwords
 import org.tensorflow.lite.examples.classification.GlobalStoreVariables.Companion.passedornot
 import org.tensorflow.lite.examples.classification.GlobalStoreVariables.Companion.speechscore
 import org.tensorflow.lite.examples.classification.GlobalStoreVariables.Companion.testspassed
@@ -52,7 +53,18 @@ class ScreenAfterSoundActivity : AppCompatActivity(){
             emojiresults.setBackgroundResource(R.drawable.sademoji)
             speechresults.text = "Speech test not passed."
         }
-        info.text = intent.getStringExtra("message") + "/5"
+        info.text = intent.getStringExtra("message") + "/5" + "\nUndetected Words: "
+        if (incorrectspeechwords.size == 0){
+            info.text = info.text as String + "None"
+        }
+        for (i in 0..incorrectspeechwords.size - 1){
+            if (i < incorrectspeechwords.size - 1){
+                info.text = info.text as String + incorrectspeechwords[i] + ", "
+            }
+            else {
+                info.text = info.text as String + incorrectspeechwords[i]
+            }
+        }
 
     }
 

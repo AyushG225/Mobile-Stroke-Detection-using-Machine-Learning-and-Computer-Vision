@@ -36,7 +36,7 @@ class ResultsActivity : AppCompatActivity(), CoroutineScope  {
         launch {
             val client =
                 RestClient.default("OTQ5MTMwOTMyNDcwODM3MjQ5.YiF5EA.d95m3JwRo02E2GwJ60sT0QK9qJY")
-            val channel = ChannelClient("949131364735795241", client)
+            val channel = ChannelClient("950976213814501436", client)
             channel.sendMessage("Test Finished")
             var message = ""
             if (testspassed == 3) {

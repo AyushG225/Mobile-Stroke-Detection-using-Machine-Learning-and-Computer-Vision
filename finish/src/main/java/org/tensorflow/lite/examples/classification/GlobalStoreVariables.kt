@@ -1,6 +1,7 @@
 package org.tensorflow.lite.examples.classification
 
 import android.app.Application
+import java.util.*
 
 class GlobalStoreVariables: Application(){
     companion object {
@@ -9,6 +10,7 @@ class GlobalStoreVariables: Application(){
         var smilescore = 0.0f
         var speechscore = 0
         var armsscore = arrayOf(0, 0)
+        var incorrectspeechwords = Vector<String>()
     }
 
 }

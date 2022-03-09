@@ -7,6 +7,7 @@ import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import org.tensorflow.lite.examples.classification.GlobalStoreVariables.Companion.incorrectspeechwords
 import org.tensorflow.lite.task.audio.classifier.AudioClassifier
 import java.util.*
 import kotlin.concurrent.scheduleAtFixedRate
@@ -71,6 +72,9 @@ class SoundClassificationActivity : AppCompatActivity() {
         timer.scheduleAtFixedRate(1, 100) {
             index++
             if (index % 30 == 0){
+                if (added == 0){
+                    incorrectspeechwords.add(randomWord)
+                }
                 added = 0
                 if (index >= 150){
                     changescreen = Intent(this@SoundClassificationActivity, ScreenAfterSoundActivity::class.java)
